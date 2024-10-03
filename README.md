@@ -40,10 +40,61 @@ Para começar:
    ```
    (Substitua XX pelo número da aula)
 
+## Instalação do Java e Javac
+
+Para participar deste curso, você precisará instalar o Java Development Kit (JDK), que inclui o compilador Java (javac). Siga as instruções abaixo de acordo com seu sistema operacional:
+
+### Windows
+
+1. Visite o site oficial da Oracle: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+2. Baixe o instalador do JDK para Windows
+3. Execute o instalador e siga as instruções na tela
+4. Após a instalação, adicione o caminho do bin do JDK ao PATH do sistema:
+   - Pesquise por "Variáveis de Ambiente" no menu Iniciar
+   - Clique em "Editar as variáveis de ambiente do sistema"
+   - Clique em "Variáveis de Ambiente"
+   - Em "Variáveis do Sistema", encontre a variável PATH e clique em "Editar"
+   - Adicione o caminho para o diretório bin do JDK (geralmente C:\Program Files\Java\jdk-11\bin)
+   - Clique em "OK" para salvar as alterações
+
+### macOS
+
+1. Instale o Homebrew se ainda não tiver: https://brew.sh/
+2. Abra o Terminal e execute:
+   ```
+   brew install openjdk@11
+   ```
+3. Adicione o Java ao seu PATH executando:
+   ```
+   echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> ~/.zshrc
+   ```
+   (Se estiver usando bash, substitua .zshrc por .bash_profile)
+
+### Linux (Ubuntu/Debian)
+
+1. Abra o Terminal
+2. Atualize o índice de pacotes:
+   ```
+   sudo apt update
+   ```
+3. Instale o OpenJDK:
+   ```
+   sudo apt install openjdk-11-jdk
+   ```
+
+Após a instalação, verifique se o Java e o Javac estão instalados corretamente executando:
+
+```
+java -version
+javac -version
+```
+
+Ambos os comandos devem exibir informações sobre a versão instalada.
+
 ## Pré-requisitos
 
 - Conhecimento básico de programação é útil, mas não obrigatório
-- JDK instalado em seu sistema
+- JDK instalado em seu sistema (veja a seção de instalação acima)
 
 ## Contribuições
 
