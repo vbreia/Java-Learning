@@ -4,6 +4,8 @@
  *
  * Nesta aula, vamos abordar:
  * - Variáveis e tipos de dados primitivos
+ * - inteiros, reais, caracteres, booleanos
+ * - Conversão entre tipos de dados
  * 
  * Objetivos:
  * 1. Compreender os conceitos básicos relacionados ao tópico
