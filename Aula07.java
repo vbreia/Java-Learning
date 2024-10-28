@@ -15,5 +15,7 @@ public class Aula07 {
     public static void main(String[] args) {
         System.out.println("Bem-vindo à Aula 07 - Funções e métodos");
         // Código da aula será desenvolvido aqui
+
+        
     }
 }
