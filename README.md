@@ -1,107 +1,81 @@
-# Curso Intensivo de Java
+# Java Learning Repository
+Este é o meu repositório de estudos de Java. Nele estarão todos os meus projetos de estudo.
 
-Bem-vindo ao Curso Intensivo de Java! Este curso foi projetado para fornecer uma introdução abrangente à programação Java, cobrindo desde os conceitos básicos até tópicos mais avançados de Programação Orientada a Objetos.
+Estou seguindo o curso de Java oferecido gratuitamente pelo professor [Marcos Aurelio](https://github.com/aureliowozhiak/intensivo_java) no canal do YouTube da plataforma DataEngineer.help. [Clique aqui para acessar o curso!](https://www.youtube.com/watch?v=4ODg1D2970E&list=PLRCKdG6PaMS02zE-ctR0ZHZUhcsx_yj-V&index=1)
 
-## Estrutura do Curso
+## Índice do repositório
+- [hello world](/hello_world) - Passos iniciais do Java
 
-O curso é dividido em 10 aulas, cada uma focando em um tópico específico:
+## Índice dos tutoriais básicos de Java
 
-1. Introdução ao Java e Hello World
-2. Variáveis e tipos de dados primitivos
-3. Operadores e expressões
-4. Estruturas de controle (if, else, switch)
-5. Loops (for, while, do-while)
-6. Arrays e ArrayList
-7. Funções e métodos
-8. Programação Orientada a Objetos - Introdução
-9. Classes e objetos
-10. Herança e polimorfismo
+- [Instalação do Java e Javac no Linux](#instalação-do-java-e-javac-no-linux)
+- [Documentação do Java](#documentação-do-java)
+- [Compilação e Execução de Programas Java](#compilação-e-execução-de-programas-java)
+   - [Compilando um Arquivo Java](#compilando-um-arquivo-java)
+   - [Executando uma Classe Java](#executando-uma-classe-java)
+   - [Compilando e Executando com um Único Comando](#compilando-e-executando-com-um-único-comando)
+   - [Compilando Todos os Arquivos .java de um Diretório](#compilando-todos-os-arquivos-java-de-um-diretório)
+   - [Executando a Classe Principal](#executando-a-classe-principal)
 
-## Objetivos de Cada Aula
+## Instalação do Java e Javac no Linux
 
-Cada aula do curso segue uma estrutura consistente com os seguintes objetivos:
+Para instalar o Java e o compilador `javac` no Linux, siga os passos abaixo:
 
-1. Compreender os conceitos básicos relacionados ao tópico
-2. Praticar com exemplos e exercícios
-3. Aplicar o conhecimento em um pequeno projeto
-
-## Como Usar Este Repositório
-
-Cada aula tem seu próprio arquivo Java (por exemplo, `Aula01.java`, `Aula02.java`, etc.). Você pode navegar por esses arquivos para ver o conteúdo de cada aula.
-
-Para começar:
-
-1. Clone este repositório
-2. Certifique-se de ter o JDK (Java Development Kit) instalado em seu sistema
-3. Compile e execute cada arquivo de aula usando os comandos:
-   ```
-   javac AulaXX.java
-   java AulaXX
-   ```
-   (Substitua XX pelo número da aula)
-
-## Instalação do Java e Javac
-
-Para participar deste curso, você precisará instalar o Java Development Kit (JDK), que inclui o compilador Java (javac). Siga as instruções abaixo de acordo com seu sistema operacional:
-
-### Windows
-
-1. Visite o site oficial da Oracle: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
-2. Baixe o instalador do JDK para Windows
-3. Execute o instalador e siga as instruções na tela
-4. Após a instalação, adicione o caminho do bin do JDK ao PATH do sistema:
-   - Pesquise por "Variáveis de Ambiente" no menu Iniciar
-   - Clique em "Editar as variáveis de ambiente do sistema"
-   - Clique em "Variáveis de Ambiente"
-   - Em "Variáveis do Sistema", encontre a variável PATH e clique em "Editar"
-   - Adicione o caminho para o diretório bin do JDK (geralmente C:\Program Files\Java\jdk-11\bin)
-   - Clique em "OK" para salvar as alterações
-
-### macOS
-
-1. Instale o Homebrew se ainda não tiver: https://brew.sh/
-2. Abra o Terminal e execute:
-   ```
-   brew install openjdk@11
-   ```
-3. Adicione o Java ao seu PATH executando:
-   ```
-   echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> ~/.zshrc
-   ```
-   (Se estiver usando bash, substitua .zshrc por .bash_profile)
-
-### Linux (Ubuntu/Debian)
-
-1. Abra o Terminal
-2. Atualize o índice de pacotes:
-   ```
+1. Atualize o repositório de pacotes:
+   ```bash
    sudo apt update
    ```
-3. Instale o OpenJDK:
+
+2. Instale o JDK (Java Development Kit):
+   ```bash
+   sudo apt install default-jdk
    ```
-   sudo apt install openjdk-11-jdk
+
+3. Verifique a instalação:
+   ```bash
+   java -version
+   javac -version
    ```
 
-Após a instalação, verifique se o Java e o Javac estão instalados corretamente executando:
+## Documentação do Java
 
+Para mais informações, consulte a [documentação oficial do Java](https://docs.oracle.com/javase/8/docs/).
+
+## Compilação e Execução de Programas Java
+
+### Compilando um Arquivo Java
+
+Para compilar um arquivo Java, use o comando `javac` seguido do nome do arquivo:
+```bash
+javac arquivo.java
 ```
-java -version
-javac -version
+
+### Executando uma Classe Java
+
+Para executar uma classe Java compilada, use o comando `java` seguido do nome da classe:
+```bash
+java Classe
 ```
 
-Ambos os comandos devem exibir informações sobre a versão instalada.
+### Compilando e Executando com um Único Comando
 
-## Pré-requisitos
+Você pode compilar e executar um programa Java com um único comando usando `&&`:
+```bash
+javac arquivo.java && java Classe
+```
 
-- Conhecimento básico de programação é útil, mas não obrigatório
-- JDK instalado em seu sistema (veja a seção de instalação acima)
+### Compilando Todos os Arquivos .java de um Diretório
 
-## Contribuições
+Para compilar todos os arquivos `.java` de um diretório e colocar os arquivos compilados em um diretório `bin`, use o comando:
+```bash
+javac -d bin src/**/*.java
+```
 
-Contribuições para melhorar o curso são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+### Executando a Classe Principal
 
-## Licença
+Após compilar os arquivos, você pode executar a classe principal com:
+```bash
+java -cp bin NomeDaClassePrincipal
+```
 
-[Insira aqui informações sobre a licença do seu curso]
-
-Esperamos que você aproveite este curso intensivo de Java e desenvolva uma base sólida na linguagem!
+Certifique-se de substituir `NomeDaClassePrincipal` pelo nome da sua classe principal.
