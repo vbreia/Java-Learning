@@ -1,10 +1,10 @@
-package OO.src;
+package OO.animais.src;
 
-import OO.src.Animais.Cachorro;
+import OO.animais.src.Animais.Cachorro;
 
 public class Main {
     public static void main(String[] args) {
-        OO.src.Animais.Cachorro cachorro1 = new Cachorro();
+        OO.animais.src.Animais.Cachorro cachorro1 = new Cachorro();
         cachorro1.nome = "Rex";
         cachorro1.raca = "Vira-lata";
         cachorro1.idade = 3;

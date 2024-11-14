@@ -5,7 +5,8 @@ Estou seguindo o curso de Java oferecido gratuitamente pelo professor [Marcos Au
 
 ## Índice do repositório
 - [hello world](/hello_world) - Passos iniciais do Java
-
+- [OO](/OO) - Orientação a Objetos
+   - [animais](/OO/animais/) - Utilizando classes
 ## Índice dos tutoriais básicos de Java
 
 - [Instalação do Java e Javac no Linux](#instalação-do-java-e-javac-no-linux)

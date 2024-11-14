@@ -1,4 +1,4 @@
-package OO.src.Animais;
+package OO.animais.src.Animais;
 
 public class Cachorro {
     public String nome;
