@@ -11,7 +11,25 @@ public class Cachorro {
     public void comer() {
     }
 
+    public String estadoDeEspirito;
+
+    public String interagir(String acao){
+        if (acao.equals("carinho")){
+            this.estadoDeEspirito = "está feliz";
+        }else if(acao.equals("dormir")){
+            this.estadoDeEspirito = "deitou para dormir.";
+        }
+         else{
+            this.estadoDeEspirito = "neutro";
+        }
+        return estadoDeEspirito;
+    }
+
     public void latir() {
         System.out.println("Au au");
+    }
+
+    public String pegar() {
+        return "Bolinha";
     }
 }

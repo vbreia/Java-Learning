@@ -13,5 +13,12 @@ public class Main {
         cachorro1.dono = "João";
 
         cachorro1.latir();
+
+        System.out.println(cachorro1.nome +  " pegou uma " + cachorro1.pegar());
+        
+        System.out.println(cachorro1.nome+" "+cachorro1.interagir("carinho")); // Ações: carinho / dormir
+    
     }
 }
+
+// atalho compilar: javac OO/animais/src/Main.java && javac OO/animais/src/Animais/Cachorro.java && java OO.animais.src.Main
