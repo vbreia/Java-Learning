@@ -18,7 +18,7 @@ Estudos baseados no curso gratuito oferecido pelo professor [Marcos Aurelio](htt
 📺 **[Acesse o curso aqui!](https://www.youtube.com/watch?v=4ODg1D2970E&list=PLRCKdG6PaMS02zE-ctR0ZHZUhcsx_yj-V&index=1)**
 
 ### 🎯 [POO - Programação Orientada a Objetos](./POO/)
-**Aulas da Faculdade de Ciência da Computação**
+**Aulas da Faculdade de Engenharia de Software**
 
 Material completo das disciplinas de POO cursadas na faculdade, com exercícios práticos e projetos estruturados.
 
