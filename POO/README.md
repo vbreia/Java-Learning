@@ -1,67 +1,70 @@
-# Programação Orientada a Objetos (POO) - Estudos de Faculdade
 
-Este diretório contém todos os meus estudos e exercícios de **Programação Orientada a Objetos** realizados durante as aulas da faculdade, implementados em **Java**.
+# Object-Oriented Programming (OOP) - College Studies
 
-## 📚 Visão Geral
+[Leia em português](./README-PTBR.md)
 
-Esta coleção representa minha jornada de aprendizagem através dos conceitos fundamentais de POO e técnicas avançadas de programação Java. Cada módulo contém exemplos práticos, exercícios e anotações detalhadas cobrindo paradigmas essenciais de programação.
+This directory contains all my **Object-Oriented Programming** studies and exercises completed during college classes, implemented in **Java**.
 
-## 🎯 Objetivos de Aprendizagem
+## 📚 Overview
 
-- Dominar os princípios da Programação Orientada a Objetos
-- Compreender sintaxe Java e melhores práticas
-- Implementar classes, objetos, herança e polimorfismo
-- Desenvolver habilidades de resolução de problemas através de exercícios práticos
-- Aplicar conceitos de POO em projetos reais
+This collection represents my learning journey through the fundamental concepts of OOP and advanced Java programming techniques. Each module contains practical examples, exercises, and detailed notes covering essential programming paradigms.
 
-## 📋 Conteúdo do Repositório
+## 🎯 Learning Objectives
+
+- Master the principles of Object-Oriented Programming
+- Understand Java syntax and best practices
+- Implement classes, objects, inheritance, and polymorphism
+- Develop problem-solving skills through practical exercises
+- Apply OOP concepts in real-world projects
+
+## 📋 Repository Contents
 
 ### 📁 [Class1](./Class1/)
-Módulos organizados de estudo de POO:
+Organized OOP study modules:
 
-- **[Módulo 1 - Classes e Objetos](./Class1/m1-class_and_objects/)**: Introdução a classes, objetos, construtores e métodos
-- **[Módulo 2 - Herança e Polimorfismo](./Class1/m2-inheritance_and_polymorphism/)**: Conceitos avançados de OOP e padrões de design
+- **[Module 1 - Classes and Objects](./Class1/m1-class_and_objects/)**: Introduction to classes, objects, constructors, and methods
+- **[Module 2 - Inheritance and Polymorphism](./Class1/m2-inheritance_and_polymorphism/)**: Advanced OOP concepts and design patterns
 
-### 📄 Arquivos de Exercícios
-- `java1.java` - Exercícios básicos e experimentações
+### 📄 Exercise Files
+- `java1.java` - Basic exercises and experiments
 
-## 🔧 Tecnologias Utilizadas
+## 🔧 Technologies Used
 
-- **Linguagem**: Java
+- **Language**: Java
 - **IDE**: VS Code
-- **Compilador**: OpenJDK
+- **Compiler**: OpenJDK
 
-## 🚀 Como Executar
+## 🚀 How to Run
 
-Para executar qualquer arquivo Java neste repositório:
+To run any Java file in this repository:
 
 ```bash
-# Navegar para o diretório específico
+# Navigate to the specific directory
 cd POO/
 
-# Compilar o arquivo Java
-javac NomeDoArquivo.java
+# Compile the Java file
+javac FileName.java
 
-# Executar o programa compilado
-java NomeDoArquivo
+# Run the compiled program
+java FileName
 ```
 
-## 📈 Progresso dos Estudos
+## 📈 Study Progress
 
-- [x] Configuração do ambiente Java
-- [x] Classes e Objetos básicos
-- [x] Métodos e Construtores
-- [ ] Herança e Polimorfismo
-- [ ] Encapsulamento e Abstração
-- [ ] Interfaces e Classes Abstratas
+- [x] Java environment setup
+- [x] Basic Classes and Objects
+- [x] Methods and Constructors
+- [ ] Inheritance and Polymorphism
+- [ ] Encapsulation and Abstraction
+- [ ] Interfaces and Abstract Classes
 
-## 📝 Anotações Importantes
+## 📝 Important Notes
 
-Este repositório serve como:
-- 📖 **Recurso de aprendizagem** - Exemplos práticos e exercícios
-- 🎯 **Portfólio acadêmico** - Demonstração do desenvolvimento de habilidades
-- 📚 **Referência futura** - Consulta rápida de conceitos e implementações
+This repository serves as:
+- 📖 **Learning resource** - Practical examples and exercises
+- 🎯 **Academic portfolio** - Demonstration of skill development
+- 📚 **Future reference** - Quick consultation of concepts and implementations
 
 ---
 
-*Repositório criado como parte dos estudos de Ciência da Computação - Programação Orientada a Objetos*
+*Repository created as part of Computer Science studies - Object-Oriented Programming*
