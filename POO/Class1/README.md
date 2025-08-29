@@ -1,3 +1,4 @@
+# [Leia em português](../README-PTBR.md)
 # Object-Oriented Programming (OOP) - Java Studies
 
 This repository contains my studies and exercises for the **Object-Oriented Programming** course at university, implemented in **Java**.
