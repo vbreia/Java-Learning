@@ -1,11 +1,12 @@
-# [Leia em português](../../README-PTBR.md)
+
 # Class 1 - Module 1 - Introduction of object-oriented programming
+
+[Leia em português](./README-PTBR.md)
 
 ---
 
 ## Themes
 
-- [Leia em português](#leia-em-português)
 - [Class 1 - Module 1 - Introduction of object-oriented programming](#class-1---module-1---introduction-of-object-oriented-programming)
   - [Themes](#themes)
   - [Classes and objects in java](#classes-and-objects-in-java)

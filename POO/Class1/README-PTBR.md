@@ -1,6 +1,6 @@
-
-# [Leia em português](../README-PTBR.md)
 # Programação Orientada a Objetos (POO) - Estudos em Java
+
+[Read in English](./README.md)
 
 Este repositório contém meus estudos e exercícios para a disciplina de **Programação Orientada a Objetos** na universidade, implementados em **Java**.
 
@@ -8,7 +8,7 @@ Este repositório contém meus estudos e exercícios para a disciplina de **Prog
 
 Esta coleção representa minha jornada de aprendizado pelos conceitos fundamentais de POO e técnicas avançadas de programação Java. Cada módulo contém exemplos práticos, exercícios e anotações detalhadas cobrindo paradigmas essenciais de programação.
 
-**📝 Nota sobre o idioma**: Como estudante brasileiro de ciência da computação, aproveito esta oportunidade para praticar e aprimorar meu inglês escrevendo toda a documentação, comentários e anotações em inglês. Essa abordagem dupla permite fortalecer tanto minhas habilidades de programação quanto o domínio do inglês técnico — duas competências essenciais para qualquer desenvolvedor no mercado global de tecnologia.
+**📝 Nota sobre o idioma**: Como estudante brasileiro de Engenharia de Software, aproveito esta oportunidade para praticar e aprimorar meu inglês escrevendo toda a documentação, comentários e anotações em inglês. Essa abordagem dupla permite fortalecer tanto minhas habilidades de programação quanto o domínio do inglês técnico — duas competências essenciais para qualquer desenvolvedor no mercado global de tecnologia.
 
 ## 🎯 Objetivos de Aprendizagem
 

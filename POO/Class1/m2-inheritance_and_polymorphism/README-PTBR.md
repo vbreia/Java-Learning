@@ -1,5 +1,8 @@
-# [Leia em português](../../README-PTBR.md)
+
+
 # Classe 1 - Módulo 2 - Herança e Polimorfismo
+
+[Read in English](./README.md)
 
 Este módulo explora conceitos avançados de POO em Java:
 

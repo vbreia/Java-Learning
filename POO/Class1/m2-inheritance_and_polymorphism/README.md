@@ -1,1 +1,1 @@
-# [Leia em português](../../README-PTBR.md)
+# [Leia em português](./README-PTBR.md)

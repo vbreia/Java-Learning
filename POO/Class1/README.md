@@ -1,5 +1,6 @@
-# [Leia em português](../README-PTBR.md)
 # Object-Oriented Programming (OOP) - Java Studies
+
+[Leia em português](./README-PTBR.md)
 
 This repository contains my studies and exercises for the **Object-Oriented Programming** course at university, implemented in **Java**.
 
@@ -7,7 +8,7 @@ This repository contains my studies and exercises for the **Object-Oriented Prog
 
 This collection represents my journey through learning fundamental OOP concepts and advanced Java programming techniques. Each module contains practical examples, exercises, and detailed notes covering essential programming paradigms.
 
-**📝 Language Learning Note**: As a Brazilian computer science student, I'm taking advantage of this opportunity to practice and improve my English skills by writing all documentation, comments, and notes in English. This dual approach allows me to strengthen both my programming abilities and English proficiency simultaneously - two essential skills for any developer in today's global tech industry.
+**📝 Language Learning Note**: As a Brazilian Software Engineer student, I'm taking advantage of this opportunity to practice and improve my English skills by writing all documentation, comments, and notes in English. This dual approach allows me to strengthen both my programming abilities and English proficiency simultaneously - two essential skills for any developer in today's global tech industry.
 
 ## 🎯 Learning Objectives
 
