@@ -1,5 +1,3 @@
-
-
 # Classe 1 - Módulo 2 - Herança e Polimorfismo
 
 [Read in English](./README.md)

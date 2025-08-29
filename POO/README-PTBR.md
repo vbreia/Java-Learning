@@ -18,11 +18,11 @@ Esta coleção representa minha jornada de aprendizagem através dos conceitos f
 
 ## 📋 Conteúdo do Repositório
 
-### 📁 [Class1](./Class1/)
+### 📁 [Introdução a POO em Java](./Introduction-of-OOP-in-java/)
 Módulos organizados de estudo de POO:
 
-- **[Módulo 1 - Classes e Objetos](./Class1/m1-class_and_objects/)**: Introdução a classes, objetos, construtores e métodos
-- **[Módulo 2 - Herança e Polimorfismo](./Class1/m2-inheritance_and_polymorphism/)**: Conceitos avançados de OOP e padrões de design
+- **[Módulo 1 - Classes e Objetos](./Introduction-of-OOP-in-java/m1-class_and_objects/)**: Introdução a classes, objetos, construtores e métodos
+- **[Módulo 2 - Herança e Polimorfismo](./Introduction-of-OOP-in-java/m2-inheritance_and_polymorphism/)**: Conceitos avançados de OOP e padrões de design
 
 ### 📄 Arquivos de Exercícios
 
