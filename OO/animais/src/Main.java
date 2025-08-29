@@ -1,24 +1,21 @@
 package OO.animais.src;
 
 import OO.animais.src.Animais.Cachorro;
+import OO.animais.src.Animais.Gato;
 
 public class Main {
+// Constructor default
     public static void main(String[] args) {
-        OO.animais.src.Animais.Cachorro cachorro1 = new Cachorro();
-        cachorro1.nome = "Rex";
-        cachorro1.raca = "Vira-lata";
-        cachorro1.idade = 3;
-        cachorro1.peso = 10.5;
-        cachorro1.cor = "Marrom";
-        cachorro1.dono = "João";
+        Cachorro cachorro1 = new Cachorro("Java", "Pinscher", 7, 2.5, "Preto", "Victor");
 
-        cachorro1.latir();
+        System.out.println(cachorro1.getNome());
 
-        System.out.println(cachorro1.nome +  " pegou uma " + cachorro1.pegar());
-        
-        System.out.println(cachorro1.nome+" "+cachorro1.interagir("carinho")); // Ações: carinho / dormir
-    
+        Gato gato1 = new Gato("Python", "tomba-lixo", 3, 1.5, "Preto", "Victor");
+
+        System.out.println(gato1.getNome());
     }
 }
+
+// continuar da aula 7 (19:00)
 
 // atalho compilar: javac OO/animais/src/Main.java && javac OO/animais/src/Animais/Cachorro.java && java OO.animais.src.Main

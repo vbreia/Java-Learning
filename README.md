@@ -4,19 +4,28 @@ Este é o meu repositório de estudos de Java. Nele estarão todos os meus proje
 Estou seguindo o curso de Java oferecido gratuitamente pelo professor [Marcos Aurelio](https://github.com/aureliowozhiak/intensivo_java) no canal do YouTube da plataforma DataEngineer.help. [Clique aqui para acessar o curso!](https://www.youtube.com/watch?v=4ODg1D2970E&list=PLRCKdG6PaMS02zE-ctR0ZHZUhcsx_yj-V&index=1)
 
 ## Índice do repositório
+
 - [hello world](/hello_world) - Passos iniciais do Java
 - [OO](/OO) - Orientação a Objetos
-   - [animais](/OO/animais/) - Utilizando classes
+  - [animais](/OO/animais/) - Utilizando classes
+- [POO](/POO) - Programação Orientada a Objetos (Aulas da Faculdade)
+  - [Class1](/POO/Class1) - Módulos de estudo POO
+    - [m1-class_and_objects](/POO/Class1/m1-class_and_objects) - Classes e Objetos
+    - [m2-inheritance_and_polymorphism](/POO/Class1/m2-inheritance_and_polymorphism) - Herança e Polimorfismo
+
 ## Índice dos tutoriais básicos de Java
 
-- [Instalação do Java e Javac no Linux](#instalação-do-java-e-javac-no-linux)
-- [Documentação do Java](#documentação-do-java)
-- [Compilação e Execução de Programas Java](#compilação-e-execução-de-programas-java)
-   - [Compilando um Arquivo Java](#compilando-um-arquivo-java)
-   - [Executando uma Classe Java](#executando-uma-classe-java)
-   - [Compilando e Executando com um Único Comando](#compilando-e-executando-com-um-único-comando)
-   - [Compilando Todos os Arquivos .java de um Diretório](#compilando-todos-os-arquivos-java-de-um-diretório)
-   - [Executando a Classe Principal](#executando-a-classe-principal)
+- [Java Learning Repository](#java-learning-repository)
+  - [Índice do repositório](#índice-do-repositório)
+  - [Índice dos tutoriais básicos de Java](#índice-dos-tutoriais-básicos-de-java)
+  - [Instalação do Java e Javac no Linux](#instalação-do-java-e-javac-no-linux)
+  - [Documentação do Java](#documentação-do-java)
+  - [Compilação e Execução de Programas Java](#compilação-e-execução-de-programas-java)
+    - [Compilando um Arquivo Java](#compilando-um-arquivo-java)
+    - [Executando uma Classe Java](#executando-uma-classe-java)
+    - [Compilando e Executando com um Único Comando](#compilando-e-executando-com-um-único-comando)
+    - [Compilando Todos os Arquivos .java de um Diretório](#compilando-todos-os-arquivos-java-de-um-diretório)
+    - [Executando a Classe Principal](#executando-a-classe-principal)
 
 ## Instalação do Java e Javac no Linux
 
