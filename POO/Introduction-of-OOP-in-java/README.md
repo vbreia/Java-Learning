@@ -68,8 +68,7 @@ java FileName
 ## 📝 Progress Tracking
 
 - [x] Module 1: Classes and Objects
-- [ ] Module 2: Inheritance and Polymorphism
-- [ ] Future modules...
+- [x] Module 2: Inheritance and Polymorphism
 
 ---
 
