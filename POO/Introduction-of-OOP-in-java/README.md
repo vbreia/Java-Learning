@@ -21,11 +21,13 @@ This collection represents my journey through learning fundamental OOP concepts 
 ## 📋 Course Modules
 
 ### Module 1 - Classes and Objects
+
 - **[📖 Study Notes](./m1-class_and_objects/README.md)**
 - **Topic**: Introduction to classes, objects, constructors, and methods
 - **Examples**: Student class implementations with different approaches
 
 ### Module 2 - Inheritance and Polymorphism
+
 - **[📖 Study Notes](./m2-inheritance_and_polymorphism/README.md)**
 - **Topic**: Understanding inheritance hierarchies and polymorphic behavior
 - **Examples**: Advanced OOP concepts and design patterns
@@ -38,7 +40,7 @@ This collection represents my journey through learning fundamental OOP concepts 
 
 ## 📁 Repository Structure
 
-```
+```code
 Class1/
 ├── README.md                           # This file
 ├── m1-class_and_objects/              # Module 1: Classes & Objects

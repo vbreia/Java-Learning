@@ -43,7 +43,6 @@ In the image, we see that "**Empregado**" is the parent (superclass) of the clas
 > ⚠️ An object instantiated from the subclass is also an object of the superclass type
 ```
 
-
 ### How to handle more than one superclass
 
 - Java does not support multiple inheritance of classes

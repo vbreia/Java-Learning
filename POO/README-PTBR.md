@@ -19,6 +19,7 @@ Esta coleção representa minha jornada de aprendizagem através dos conceitos f
 ## 📋 Conteúdo do Repositório
 
 ### 📁 [Introdução a POO em Java](./Introduction-of-OOP-in-java/)
+
 Módulos organizados de estudo de POO:
 
 - **[Módulo 1 - Classes e Objetos](./Introduction-of-OOP-in-java/m1-class_and_objects/)**: Introdução a classes, objetos, construtores e métodos
