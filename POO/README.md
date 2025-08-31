@@ -28,7 +28,7 @@ Organized OOP study modules:
 
 ### 📄 Exercise Files
 
-- `java1.java` - Basic exercises and experiments
+- `Escola/Principal.java` - School management and student grouping by naturalidade
 
 ## 🔧 Technologies Used
 
@@ -38,7 +38,19 @@ Organized OOP study modules:
 
 ## 🚀 How to Run
 
-To run any Java file in this repository:
+To run the school management program (`Escola/Principal.java`):
+
+```bash
+# From the root of the repository
+
+# Compile all files in the Escola package, generating the correct package structure
+javac -d POO POO/Escola/*.java
+
+# Run the main program
+java -cp POO POO.Escola.Principal
+```
+
+To run any other Java file in this repository:
 
 ```bash
 # Navigate to the specific directory
@@ -56,9 +68,9 @@ java FileName
 - [x] Java environment setup
 - [x] Basic Classes and Objects
 - [x] Methods and Constructors
-- [ ] Inheritance and Polymorphism
-- [ ] Encapsulation and Abstraction
-- [ ] Interfaces and Abstract Classes
+- [x] Inheritance and Polymorphism
+- [x] Encapsulation and Abstraction
+- [x] Interfaces and Abstract Classes
 
 ## 📝 Important Notes
 

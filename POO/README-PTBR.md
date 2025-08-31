@@ -1,6 +1,6 @@
 # Programação Orientada a Objetos (POO) - Estudos de Faculdade
 
-[Leia em português](./README-PTBR.md)
+[Leia em Inglês](./README.md)
 
 Este diretório contém todos os meus estudos e exercícios de **Programação Orientada a Objetos** realizados durante as aulas da faculdade, implementados em **Java**.
 
@@ -18,16 +18,16 @@ Esta coleção representa minha jornada de aprendizagem através dos conceitos f
 
 ## 📋 Conteúdo do Repositório
 
-### 📁 [Introdução a POO em Java](./Introduction-of-OOP-in-java/)
+### 📁 [Introdução à POO em Java](./Introduction-of-OOP-in-java/)
 
 Módulos organizados de estudo de POO:
 
 - **[Módulo 1 - Classes e Objetos](./Introduction-of-OOP-in-java/m1-class_and_objects/)**: Introdução a classes, objetos, construtores e métodos
-- **[Módulo 2 - Herança e Polimorfismo](./Introduction-of-OOP-in-java/m2-inheritance_and_polymorphism/)**: Conceitos avançados de OOP e padrões de design
+- **[Módulo 2 - Herança e Polimorfismo](./Introduction-of-OOP-in-java/m2-inheritance_and_polymorphism/)**: Conceitos avançados de POO e padrões de projeto
 
-### 📄 Arquivos de Exercícios
+### 📄 Arquivos de Exercício
 
-- `java1.java` - Exercícios básicos e experimentações
+- `Escola/Principal.java` - Gestão escolar e agrupamento de alunos por naturalidade
 
 ## 🔧 Tecnologias Utilizadas
 
@@ -37,16 +37,28 @@ Módulos organizados de estudo de POO:
 
 ## 🚀 Como Executar
 
-Para executar qualquer arquivo Java neste repositório:
+Para executar o programa de gestão escolar (`Escola/Principal.java`):
 
 ```bash
-# Navegar para o diretório específico
+# A partir da raiz do repositório
+
+# Compile todos os arquivos do pacote Escola, gerando a estrutura de pacotes correta
+javac -d POO POO/Escola/*.java
+
+# Execute o programa principal
+java -cp POO POO.Escola.Principal
+```
+
+Para executar qualquer outro arquivo Java deste repositório:
+
+```bash
+# Navegue até o diretório específico
 cd POO/
 
-# Compilar o arquivo Java
+# Compile o arquivo Java
 javac NomeDoArquivo.java
 
-# Executar o programa compilado
+# Execute o programa compilado
 java NomeDoArquivo
 ```
 
@@ -55,9 +67,9 @@ java NomeDoArquivo
 - [x] Configuração do ambiente Java
 - [x] Classes e Objetos básicos
 - [x] Métodos e Construtores
-- [ ] Herança e Polimorfismo
-- [ ] Encapsulamento e Abstração
-- [ ] Interfaces e Classes Abstratas
+- [x] Herança e Polimorfismo
+- [x] Encapsulamento e Abstração
+- [x] Interfaces e Classes Abstratas
 
 ## 📝 Anotações Importantes
 
